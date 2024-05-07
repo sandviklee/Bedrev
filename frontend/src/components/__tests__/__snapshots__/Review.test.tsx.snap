@@ -1,0 +1,84 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Review component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="px-[20px] py-[20px] flex-row sm:h-fit max-h-fit min-h-[200px] w-[350px] rounded-md font-whyte"
+    style="background-color: rgb(226, 218, 235);"
+  >
+    <div
+      class="flex"
+    >
+      <p
+        class="flex w-full justify-start leading-[40px] text-[90%] font-medium "
+      >
+        Test
+      </p>
+    </div>
+    <div
+      class="flex items-center align-middle gap-1 py-2"
+    >
+      <div
+        class="text-2xl pb-2"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polygon
+            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+          />
+        </svg>
+      </div>
+      <p
+        class="text-lg font-medium"
+      >
+        5/5
+      </p>
+    </div>
+    <p
+      class="leading-[30px] font-regular text-[16px] sm:h-[120px] max-h-[180px] min-h-[160px]"
+    >
+      This is a test
+    </p>
+    <p
+      class="flex gap-1 py-2 justify-end text-base font-medium items-center "
+    />
+    <div
+      class="text-2xl pb-1"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+        />
+        <circle
+          cx="12"
+          cy="7"
+          r="4"
+        />
+      </svg>
+    </div>
+    <p>
+      Anonym
+    </p>
+    <p />
+  </div>
+</DocumentFragment>
+`;

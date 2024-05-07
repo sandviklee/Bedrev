@@ -1,0 +1,43 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ReviewCreator component > matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="bg-white text-black hover:bg-white hover:text-black rounded-sm border-black border-2 transition-all py-2 w-fit text-sm px-[10px] group transition hover:bg-primary border-solid"
+    type="button"
+  >
+    <div
+      class="flex flex-row gap-2 justify-center pt-1 h-full px-6 align-middle"
+    >
+      Skriv en tilbakemelding
+      <svg
+        class="text-lg group-hover:-rotate-90 transition-all delay-75 pb-1"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 19l7-7 3 3-7 7-3-3z"
+        />
+        <path
+          d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"
+        />
+        <path
+          d="M2 2l7.586 7.586"
+        />
+        <circle
+          cx="11"
+          cy="11"
+          r="2"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;

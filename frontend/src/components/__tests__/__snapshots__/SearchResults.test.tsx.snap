@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SearchResults component > matches snapshot 1`] = `
+<DocumentFragment>
+  <p
+    class="text-left text-lg"
+  >
+    Laster inn flere bedrifter...
+  </p>
+</DocumentFragment>
+`;

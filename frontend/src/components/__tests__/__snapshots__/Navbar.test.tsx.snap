@@ -1,0 +1,100 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar component > matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="flex flex-row w-full h-[120px] items-center px-[8%] text-base font-whyte"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="companylogo"
+        class="w-[150px]"
+        src="/project2/bedrevLogo.svg"
+      />
+    </a>
+    <div
+      class="sm:visible sm:flex flex-row h-full w-full items-center justify-end hidden"
+    >
+      <a
+        class="flex items-center justify-center h-[100%] w-[120px] font-whyte"
+        href="/"
+      >
+        <div
+          class="pb-1.5 pr-2"
+          style="visibility: hidden;"
+        >
+          <div
+            class="w-2 h-2 rounded-xl bg-purple"
+          />
+        </div>
+        <p>
+          Hjem
+        </p>
+      </a>
+      <a
+        class="flex items-center justify-center h-[100%] w-[120px] font-whyte"
+        href="/sok-bedrifter"
+      >
+        <div
+          class="pb-1.5 pr-2"
+          style="visibility: hidden;"
+        >
+          <div
+            class="w-2 h-2 rounded-xl bg-purple"
+          />
+        </div>
+        <p>
+          Søk bedrifter
+        </p>
+      </a>
+      <a
+        class="flex items-center justify-center h-[100%] w-[120px] font-whyte"
+        href="/logg-inn"
+      >
+        <div
+          class="pb-1.5 pr-2"
+          style="visibility: hidden;"
+        >
+          <div
+            class="w-2 h-2 rounded-xl bg-purple"
+          />
+        </div>
+        <p>
+          Logg Inn
+        </p>
+      </a>
+    </div>
+    <div
+      class="sm:hidden flex w-full h-full items-center justify-end visible pb-4"
+    >
+      <button
+        aria-expanded="false"
+        aria-haspopup="menu"
+        data-state="closed"
+        id="radix-:r4:"
+        type="button"
+      >
+        <div
+          aria-expanded="false"
+          class="hamburger-react"
+          role="button"
+          style="cursor: pointer; height: 48px; position: relative; transition: 0.4s cubic-bezier(0, 0, 0, 1); user-select: none; width: 48px; outline: none; transform: none;"
+          tabindex="0"
+        >
+          <div
+            style="background: currentColor; height: 3px; left: 8px; position: absolute; width: 32px; top: 13px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
+          />
+          <div
+            style="background: currentColor; height: 3px; left: 8px; position: absolute; width: 32px; top: 23px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
+          />
+          <div
+            style="background: currentColor; height: 3px; left: 8px; position: absolute; width: 32px; top: 33px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;"
+          />
+        </div>
+      </button>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

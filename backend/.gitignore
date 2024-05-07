@@ -1,0 +1,5 @@
+node_modules
+.DS_Store
+prisma/migrations
+full_data.csv
+data.csv

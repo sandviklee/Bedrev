@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Error page > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex justify-center flex-col w-full h-[100vh] items-center leading-[30px] gap-8"
+  >
+    <a
+      class="flex"
+      href="/"
+    >
+      <img
+        alt="companylogo"
+        class="w-[180px]"
+        src="/project2/bedrevLogo.svg"
+      />
+    </a>
+    <div
+      class="sm:text-[18px] text-[14px]"
+    >
+      <p
+        class="text-center font-medium tracking-tight"
+      >
+        Beklager, vi kunne ikke finne bedriften du leter etter :(
+      </p>
+      <p
+        class="text-center font-bold tracking-wider"
+      >
+        Feilmelding: Test error
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

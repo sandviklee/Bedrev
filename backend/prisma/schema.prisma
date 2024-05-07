@@ -1,0 +1,44 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model bedrift {
+  organisasjonsnummer                  Int      @id @unique
+  navn                                 String   @db.VarChar(255)
+  institusjonellsektorkode_beskrivelse String   @db.VarChar(255)
+  antallansatte                        Int      @db.Integer()
+  hjemmeside                           String?  @db.VarChar(255)
+  postadresse_adresse                  String?  @db.VarChar(255)
+  postadresse_poststed                 String?  @db.VarChar(255)
+  postadresse_kommune                  String?  @db.VarChar(255)
+  stiftelsesdato                       String?  @db.VarChar(255)
+  naeringskode_beskrivelse             String?
+  vedtektsfestetformaal                String?
+  reviews                              Review[]
+}
+
+model Review {
+  id           Int     @id @default(autoincrement())
+  title        String
+  description  String
+  rating       Int
+  bedrift      bedrift @relation(fields: [bedriftOrgNr], references: [organisasjonsnummer])
+  bedriftOrgNr Int
+  postedBy     User    @relation(fields: [postedById], references: [id])
+  postedById   Int
+}
+
+model User {
+  id       Int      @id @default(autoincrement())
+  email    String   @unique
+  password String
+  reviews  Review[]
+}

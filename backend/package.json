@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "GraphQL Backend with Prisma ORM and PostgreSQL for Bedrev",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "apollo-server": "^3.12.1",
+    "bcryptjs": "^2.4.3",
+    "csv-parser": "^3.0.0",
+    "fastify": "^4.24.3",
+    "graphql": "^16.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.5.2"
+  }
+}
