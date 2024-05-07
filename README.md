@@ -1,4 +1,4 @@
-# Project 2 - bedrev
+# Bedrev
 
 <div style="width:70%; margin: auto;">
 <img src="./misc/images/homepage.png">
@@ -18,7 +18,7 @@
 
 ## Description
 
-For our second project we decided to make a company review website. In which employes can review their company and give it a rating anonymously. Using data from Brønnøysundregisteret we can get information about all the companies and display it on the website in a searchable and filterable fashion. The website is hosted on [it2810-h23.idi.ntnu.no/project2/](http://it2810-37.idi.ntnu.no/project2/) (ntnu vm required to access).
+Bedrev is a company review website based in Norway. In which employes can review their company and give it a rating anonymously. Using data from "Brønnøysundregisteret" we can get information about all the companies and display it on the website in a searchable and filterable fashion.
 
 <div style="width:70%; margin: auto;">
 <img src="./misc/images/searchpage.png">
@@ -32,7 +32,7 @@ The app comes with search, filter and sort functionality for the dataset. If you
 
 ## Installation & Setup
 
-As per recomendation from the instructor "Det er mye enklere for medstudenter å utforske systemet når dere setter opp en kjørende prototyp, samt at de fleste har godt av å ha vært igjennom dette nå" you don't need to install our project locally instead you should go to [the hosted instance](http://it2810-37.idi.ntnu.no/project2/) to see the project in action. The hosted instance will be taken down after the project is graded. If you wish to run the project locally continue reading.
+As per recommmendation from the instructor "Det er mye enklere for medstudenter å utforske systemet når dere setter opp en kjørende prototyp, samt at de fleste har godt av å ha vært igjennom dette nå" you don't need to install our project locally instead you should go to [the hosted instance](http://it2810-37.idi.ntnu.no/project2/) to see the project in action. The hosted instance will be taken down after the project is graded. If you wish to run the project locally continue reading.
 
 ### Installation
 
